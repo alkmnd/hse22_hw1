@@ -69,3 +69,8 @@ time platanus gap_close -o Poil -c Poil_scaffold.fa -IP1 sub1.fastq.trimmed sub2
 ```
 rm sub*.trimmed matep*.int_trimmed
 ```
+---
+## Полученные отчеты
+### Для необрезанных чтений:
+### Для обрезанных чтений: 
+---
