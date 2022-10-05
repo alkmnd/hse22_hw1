@@ -72,5 +72,6 @@ rm sub*.trimmed matep*.int_trimmed
 ---
 ## Полученные отчеты
 ### Для необрезанных чтений:
+![Image alt](https://github.com/alkmnd/hse22_hw1/raw/main/images/m1.png)
 ### Для обрезанных чтений: 
 ---
