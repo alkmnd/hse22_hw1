@@ -73,5 +73,12 @@ rm sub*.trimmed matep*.int_trimmed
 ## Полученные отчеты
 ### Для необрезанных чтений:
 ![Image alt](https://github.com/alkmnd/hse22_hw1/raw/main/images/m1.png)
+![Image alt](https://github.com/alkmnd/hse22_hw1/raw/main/images/m2.png)
 ### Для обрезанных чтений: 
+![Image alt](https://github.com/alkmnd/hse22_hw1/raw/main/images/m1_trimmed.png)
+![Image alt](https://github.com/alkmnd/hse22_hw1/raw/main/images/m2_trimmed.png)
 ---
+##### Анализ контигов, скаффолдов и подсчет кол-ва гэпов доступны по ссылке на Google Collab:
+```
+https://colab.research.google.com/drive/1Krq_ukieMcxLf1Euqzu5w2BriM539OpN?usp=sharing
+```
