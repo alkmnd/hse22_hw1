@@ -3,10 +3,10 @@
 # Belova Natalya
 
 ##### Создадим ссылки в папке:
- ls /usr/share/data-minor-bioinf/assembly/* | xargs -tI{} ln -s {} 
+ ```ls /usr/share/data-minor-bioinf/assembly/* | xargs -tI{} ln -s {}```
 
 ##### Выбор случайных чтений:
-seqtk sample -s612 oil_R1.fastq 5000000 > sub1.fastq
+ ```seqtk sample -s612 oil_R1.fastq 5000000 > sub1.fastq ```
 seqtk sample -s612 oil_R2.fastq 5000000 > sub2.fastq
 seqtk sample -s612 oilMP_S4_L001_R1_001.fastq 1500000 > matep1.fastq
 seqtk sample -s612 oilMP_S4_L001_R2_001.fastq 1500000 > matep2.fastq
@@ -18,7 +18,7 @@ ls sub* matep* | xargs -tI{} fastqc -o fastqc {}
 ##### Создадим отчет через MultiQC:
 mkdir multiqc
 multiqc -o multiqc fastqc
-##### Выбираем случaйные чтения из пункта 2
+##### Выбираем случaйные чтения как в пункте 2.
 ##### Обрежем чтения:
 platanus_trim sub*
 platanus_internal_trim matep*
