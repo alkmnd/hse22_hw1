@@ -78,7 +78,7 @@ rm sub*.trimmed matep*.int_trimmed
 ![Image alt](https://github.com/alkmnd/hse22_hw1/raw/main/images/m1_trimmed.png)
 ![Image alt](https://github.com/alkmnd/hse22_hw1/raw/main/images/m2_trimmed.png)
 ---
-##### Анализ контигов, скаффолдов, подсчет кол-ва гэпов и бонусная часть задания доступны по ссылке на Google Collab:
+##### Анализ контигов, скаффолдов, подсчет кол-ва гэпов доступны по ссылке на Google Collab:
 ```
 https://colab.research.google.com/drive/1Krq_ukieMcxLf1Euqzu5w2BriM539OpN?usp=sharing
 ```
