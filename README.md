@@ -3,7 +3,7 @@
 # Belova Natalya
 
 ##### Создадим ссылки в папке:
-<ls /usr/share/data-minor-bioinf/assembly/* | xargs -tI{} ln -s {}>
+<ls /usr/share/data-minor-bioinf/assembly/* | xargs -tI{} ln -s {} >
 
 ##### Выбор случайных чтений:
 seqtk sample -s612 oil_R1.fastq 5000000 > sub1.fastq
